@@ -8,3 +8,6 @@ Axios
 Core-js  
 Tailwind CSS  
 react-i18next
+query-string
+moment
+react-responsive
