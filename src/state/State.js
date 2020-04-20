@@ -8,6 +8,12 @@ export const init = () => {
   };
 };
 
+export const ACTIONS = {
+  RESET_STATE: "RESET_STATE",
+  INCREMENT: "INCREMENT",
+  DECREMENT: "DECREMENT",
+};
+
 export const reducer = (state, action) => {
   switch (action.type) {
     case "RESET_STATE":
